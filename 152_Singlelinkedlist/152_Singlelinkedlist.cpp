@@ -97,4 +97,19 @@ void traverse() {
 		system("cls");
 		return;
 	}
+	else {
+		Node* currentNode = START;
+		while (currentNode != NULL) {
+			cout << "NIM: " << currentNode->noMhs << ",Nama: " << endl;
+				currentNode = currentNode -> next;
+		}
+	}
+}
+
+void searchDara() {
+	if (listEmpety()) {
+		cout << "List Kosong" << endl;
+		system("pause");
+		system("cls");
+		return;
 }
