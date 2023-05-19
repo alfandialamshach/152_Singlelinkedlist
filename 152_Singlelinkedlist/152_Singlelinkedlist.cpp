@@ -144,7 +144,7 @@ int main() {
 			cout << "Pilihan";
 			cin >> pilihan;
 			switch (pilihan)
-			{
+			{ 
 			case 1:
 				addNode();
 				cout << "Data Berhasil Ditambahkan" << endl;
