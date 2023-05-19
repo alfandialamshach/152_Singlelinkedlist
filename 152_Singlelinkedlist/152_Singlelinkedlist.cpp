@@ -43,7 +43,7 @@ void addNode() {
 			}
 			previous = current;
 			current = current->next;
-			
+		
 		}
 	
 		nodeBaru->next = current;
